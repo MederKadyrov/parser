@@ -1,0 +1,16 @@
+{
+    "name": "meder/parser-project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Meder\\ParserProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Meder Kadyrov",
+            "email": "kadyrov.meder98@gmail.com"
+        }
+    ],
+    "require": {}
+}
