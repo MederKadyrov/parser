@@ -14,7 +14,9 @@
         ?>
         <div>
             <?php for ($p = 1; $p <= $totalPages; $p++): ?>
-                <a href="?page=<?= $p ?>"><?= $p ?></a>
+                <a href="?source=<?= urlencode($_GET['source']) ?>&page=<?= $p ?>">
+                    <?= $p ?>
+                </a>
             <?php endfor; ?>
         </div>
     <?php endif; ?>
